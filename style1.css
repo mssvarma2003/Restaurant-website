@@ -1,0 +1,376 @@
+body{
+  background-image: url("Background1.jpg");
+  background-size: 1380px 700px;
+}
+
+.backgroundDiv img{
+  width: 1380px;
+  height: 700px;
+}
+  #form{
+  background: #331a00;
+  margin-top:none;
+  margin-right: 3%;
+  width: 325px;
+  height: 650px;
+  opacity: 0.8;
+  float: right;
+  overflow: scroll;
+}
+
+#bar{
+  border-bottom: 2px solid white;
+  width: 966px;
+  height: 100px;
+  float: top;
+  float: left;
+
+}
+#menu{
+  float: left;
+  width: 100px;
+  height: 50px;
+  text-align: center; 
+  color: white;
+  font-family: calibri;
+  font-size: 18pt;
+  margin-top: 5%;
+  margin-left: 2%;
+  opacity: 0.9;
+}
+#about{
+  float: left;
+  width: 150px;
+  height: 50px;
+  text-align: center; 
+  color: white;
+  font-family: calibri;
+  font-size: 18pt;
+  margin-top:5%;
+  margin-right: 12%;
+  opacity: 0.9;
+  font-style: initial;
+}
+#about{
+  width: 270px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font-family: calibri;
+  font-size: 12pt;
+  margin-left: 5%;
+  font-style: italic;
+}
+a{
+  color: white;
+  text-align: center;
+  font-size: 18pt;
+  font-family: calibri;
+  text-decoration: none;
+  opacity: 0.9;
+}
+a:hover{
+         color: #ffc107;
+}
+#logo{
+  margin-left: 15%;
+  width: 200px;
+  height: 150px;
+}
+#welcome{
+  width: 300px;
+  height: 100px;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15pt;
+  border-top: 2px solid white;
+  padding-top: 10%;
+}
+
+#menu_list{
+  background: #331a00;
+  margin-top: 1%;
+  margin-right: 3%;
+  width: 325px;
+  height: 650px;
+  opacity: 0.8;
+  float: right;
+}
+
+#list{
+  border-top: 2px solid white;
+  margin-top: 5%;
+}
+
+ul{
+  margin-top: 20%;
+  font-size: 18pt;
+  color: white;
+  font-family: verdana;
+}
+
+#menu_img{
+  width: 960px;
+  height: 530px;
+  background: #331a00;
+  float: left;
+  margin-top: 1%;
+  opacity: 0.9;
+}
+
+.chiken, .prawn , .fish, .czb, .fzb, .broast{
+  margin-top: 5%;
+  margin-right: 0%;
+  float: left;
+  width: 300px;
+  height: 200px;
+  border-radius: 2px;
+  border: 5px solid white;
+  position: relative;
+  cursor: pointer; 
+
+}
+
+.beef:hover .beef-s, .chicken:hover .chicken-s, .fish:hover .fish-s, .czb:hover .czb-s, .fzb:hover .fzb-s, .broast:hover .broast-s{
+  height: 200px;
+}
+
+.beef img, .chicken img, .fish img, .czb img, .fzb img, .broast img{
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.beef-s, .chicken-s, .fish-s, .czb-s, .fzb-s, .broast-s{
+  width: 300px;
+  height: 00px;
+  background: #ff980094;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.beef-s h2, .chicken-s h2, .fish-s h2, .czb h2, .fzb h2, .broast h2{
+  color: white;
+  font-size: 30px;
+  border: 6px solid white;
+  padding: 10px 30px;
+}
+
+li{
+  margin-top: 5%;
+}
+
+li:hover{
+  color: #ffc107;
+}
+#list{
+  border-top: 2px solid white;
+  margin-top: 5%;
+}
+
+ul{
+  margin-top: 20%;
+  font-size: 18pt;
+  color: white;
+  font-family: verdana;
+}
+
+#menu_img{
+  width: 960px;
+  height: 530px;
+  background: #331a00;
+  float: left;
+  margin-top: 1%;
+  opacity: 0.9;
+}
+
+.beef, .chicken, .fish, .czb, .fzb, .broast{
+  margin-top: 5%;
+  margin-right: 0%;
+  float: left;
+  width: 300px;
+  height: 200px;
+  border-radius: 2px;
+  border: 5px solid white;
+  position: relative;
+  cursor: pointer; 
+}
+
+.beef:hover .beef-s, .chicken:hover .chicken-s, .fish:hover .fish-s, .czb:hover .czb-s, .fzb:hover .fzb-s, .broast:hover .broast-s{
+  height: 200px;
+}
+
+.beef img, .chicken img, .fish img, .czb img, .fzb img, .broast img{
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.beef-s, .chicken-s, .fish-s, .czb-s, .fzb-s, .broast-s{
+  width: 300px;
+  height: 00px;
+  background: #ff980094;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.beef-s h2, .chicken-s h2, .fish-s h2, .czb h2, .fzb h2, .broast h2{
+  color: white;
+  font-size: 30px;
+  border: 6px solid white;
+  padding: 10px 30px;
+}
+
+li{
+  margin-top:6%;
+}
+
+li:hover{
+  color: #ffc107;
+}
+#otherways{
+  background: #331a00;
+  margin-top:6.9%;
+  margin-right: 0%;
+  margin-left: 6%;
+  width: 325px;
+  height: 650px;
+  opacity: 0.8;
+  float: right;
+}
+
+#ways{
+  border-top: 2px solid white;
+  margin-top: 5%;
+}
+
+#detail{
+  text-align: center;
+  font-family: calibri;
+  color: #ccc;
+  font-style: italic;
+  font-size: 33px;
+}
+
+.m_icon{
+  margin-left: 8%;
+  margin-top: 30%;
+  font-size: 20pt;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.wt_icon, .mail_icon, .fb_icon, .tw_icon{
+  margin-left: 8%;
+  margin-top: 5%;
+  font-size: 12pt;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.wt_icon:hover, .m_icon:hover, .mail_icon:hover, .fb_icon:hover, .tw_icon:hover{
+  color:#e28d26;
+}
+
+
+b{
+  text-align: left;
+  padding-left: 5%;
+  font-size: 12pt;
+  font-family: calibri;
+}
+
+.about_us{
+  margin-top: 2%;
+  margin-left: 15%;
+  float: left;
+  background: #331a00;
+  opacity: 0.8;
+  width: 500px;
+  height: 500px;
+}
+
+#ct_head{
+  color: white;
+  font-size: 24pt;
+  font-family: calibri;
+  padding-top:1%;
+  text-align: center;
+  background: #e28d26;
+  width:inherit;
+  height: 50px;
+}
+
+#nm{
+  font-size: 16pt;
+  color: white;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 50px;
+  padding-left: 10px;
+  width: 400px;
+  height: 40px;
+  background: #1d0f00;
+  border: none;
+  outline: none;
+}
+
+#eml{
+  font-size: 16pt;
+  color: white;
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 50px;
+  padding-left: 10px;
+  width: 400px;
+  height: 40px;
+  background: #1d0f00;
+  border: none;
+  outline: none;
+}
+
+textarea{
+  font-family: calibri;
+  font-size: 16pt;
+  color: white;
+  text-align: left;
+  width: 400px;
+  height:300px;
+  margin-top: 1%;
+  margin-left: 50px;
+  padding-left: 10px;
+  background: #1d0f00;
+  border:none;
+  outline: none;
+}
+
+#send{
+  text-align: center;
+  font-size: 16pt;
+  color: #ccc;
+  margin-top: 4%;
+  float: right;
+  width: 100px;
+  height: 40px;
+  margin-right: 40px;
+  background: none;
+  outline: none;
+  transition: 1s;
+  border: 1px solid #e28d26;
+}
+
+#send:hover{
+  background: #e28d26;
+}
